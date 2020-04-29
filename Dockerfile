@@ -1,5 +1,4 @@
 FROM node:carbon-alpine
-RUN MKDIR /Latech_app
 COPY src /Latech_app
 COPY router /Latech_app
 COPY package-lock.json /Latech_app
